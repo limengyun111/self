@@ -1,8 +1,8 @@
 // import React from 'react';
-
+import styles from './service.module.css';
 const ServiceDetail = () => {
 	return (
-		<div>查看服务详情</div>
+		<div className={styles.container}>查看服务详情</div>
 	)
 }
 
