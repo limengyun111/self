@@ -4,20 +4,21 @@ import ServiceDetail from "./pages/ServiceDetail";
 import ServiceList from "./pages/ServiceList";
 
 const routeConfig: RouteConfig[] = [
-    {
-        path: '/',
-        component: Console,
-    },
-    {
-        path: '/service',
-        component: ServiceList,
-        children: [
-            { path: '/detail', 
-              component: ServiceDetail 
-            },
-           
-        ]
-    }
+	{
+		path: '/',
+		component: Console,
+	},
+	{
+		path: '/service',
+		component: ServiceList,
+		children: [
+			{
+				path: '/detail',
+				component: ServiceDetail
+			},
+
+		]
+	}
 ]
 
 export default routeConfig;
