@@ -4,7 +4,7 @@
 This is a simple project with three routes that can be started using express or webpack.
 
 
-## Usage
+## Start up
 ```
 cd ./self/back-end
 npm run dev
