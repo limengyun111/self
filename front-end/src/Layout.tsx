@@ -4,12 +4,13 @@ import { RouteConfig } from './config';
 import { extractRoutes } from "./utils";
 
 const LayoutContainer = () => {
-    return (
-        <Routes>{
-            extractRoutes(routeConfig).map((route: RouteConfig) => (
-                <Route key={route.path} path={route.path} Component={route.component} />
-            ))}</Routes>
-    )
+	return (
+		<Routes>{
+			extractRoutes(routeConfig).map((route: RouteConfig) => (
+				<Route key={route.path} path={route.path} Component={route.component} />
+			))}
+		</Routes>
+	)
 
 }
 

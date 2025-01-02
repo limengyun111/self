@@ -1,14 +1,16 @@
 {
-  "compilerOptions": {
-    "outDir": "front-end/dist",
-    "noImplicitAny": true,
-    "module": "es6",
-    "target": "es5",
-    "jsx": "react-jsx",
-    "allowJs": true,
-    "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["declarations.d.ts","src"]
-
+	"compilerOptions": {
+		"outDir": "front-end/dist",
+		"noImplicitAny": true,
+		"module": "ES6",
+		"target": "es6",
+		"jsx": "react-jsx",
+		"allowJs": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"declarations.d.ts",
+		"src"
+	]
 }

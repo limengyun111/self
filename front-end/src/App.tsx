@@ -1,11 +1,15 @@
 // import React from 'react';
 import LayoutContainer from './Layout';
-import { BrowserRouter, Routes } from "react-router";
+import { BrowserRouter } from "react-router";
 
 console.log('app');
-const App: React.FC =() => {
-    return <BrowserRouter><LayoutContainer />
-   
-    </BrowserRouter>;
-  }
+console.log("22v");
+
+const App: React.FC = () => {
+	return (
+		<BrowserRouter>
+			<LayoutContainer />
+		</BrowserRouter>
+	)
+}
 export default App;
